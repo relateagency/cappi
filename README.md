@@ -15,7 +15,7 @@ vercel env pull .env.local
 
 # Lokaler Dev-Server + API-Proxy
 node proxy.mjs
-# -> http://localhost:3000
+# -> http://localhost:4747
 ```
 
 ## Deployment
