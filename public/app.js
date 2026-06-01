@@ -39,10 +39,10 @@
   ];
 
   const MODELS = {
-    snapback: { name: 'Snapback', img: 'assets/cap-snapback.png' },
-    dadcap:   { name: 'Dad Cap',  img: 'assets/cap-baseball.png' },
-    trucker:  { name: 'Trucker',  img: 'assets/cap-trucker.png' },
-    cord:     { name: 'Cord Cap', img: 'assets/cap-cord.png' },
+    snapback: { name: 'Snapback', img: '/assets/cap-snapback.png' },
+    dadcap:   { name: 'Dad Cap',  img: '/assets/cap-baseball.png' },
+    trucker:  { name: 'Trucker',  img: '/assets/cap-trucker.png' },
+    cord:     { name: 'Cord Cap', img: '/assets/cap-cord.png' },
   };
 
   const state = {

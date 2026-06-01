@@ -1,19 +1,6 @@
-<!doctype html>
-<html lang="de">
-<head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Custom Caps für Firmen | CAPPI — Made in Europa ab 50 Stück</title>
-<meta name="description" content="Premium Custom Caps mit deinem Logo. 3D-Stickerei, Made in Portugal, geliefert in 4 Wochen. Kostenloses 3D-Mockup." />
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/css/intlTelInput.css" />
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-
-<!-- ============ NAV ============ -->
+// AUTO-GENERIERT aus der urspruenglichen Landing-Page (verlustfrei).
+// Interaktivitaet kommt aus /public/app.js, Styling aus app/globals.css.
+export const LANDING_HTML = `<!-- ============ NAV ============ -->
 <div class="nav-wrap">
   <nav class="nav" aria-label="Hauptnavigation">
     <a class="nav-logo" href="#top" aria-label="CAPPI Home">
@@ -54,7 +41,7 @@
   <div class="hero-bg" aria-hidden="true"></div>
 
   <!-- Doodles -->
-  <img class="doodle doodle-1" src="assets/doodle-1.svg" alt="" aria-hidden="true" />
+  <img class="doodle doodle-1" src="/assets/doodle-1.svg" alt="" aria-hidden="true" />
 
   <div class="hero-content">
     <div class="wrap">
@@ -72,7 +59,7 @@ In 4-5 Wochen geliefert.</p>
         <a class="btn btn-ghost-dark btn-lg" href="#products">Modelle ansehen</a>
       </div>
       <a class="hero-google" href="https://search.google.com/local/reviews?placeid=ChIJ5WbjfYILkEcRoukyv_0wgxU&amp;hl=de" target="_blank" rel="noopener">
-        <img src="assets/logos/google-g.svg" alt="Google" />
+        <img src="/assets/logos/google-g.svg" alt="Google" />
         <span class="hg-stars" aria-hidden="true">★★★★★</span>
         <span class="hg-text"><strong>5,0</strong> · 522 Bewertungen</span>
       </a>
@@ -120,7 +107,7 @@ In 4-5 Wochen geliefert.</p>
         <span class="badge">Bestseller</span>
         <div>
           <div class="img-wrap">
-            <img class="cap-img" src="assets/cap-snapback.png" alt="Classic Snapback Cap" />
+            <img class="cap-img" src="/assets/cap-snapback.png" alt="Classic Snapback Cap" />
           </div>
           <h3 class="name">Classic Snapback</h3>
           <p class="desc" style="margin: 8px 0px 0px">5-Panels, Cap + Schirm aus Köperstoff mit Snapback Verschluss.</p>
@@ -134,7 +121,7 @@ In 4-5 Wochen geliefert.</p>
         <span class="badge lavender">Trending</span>
         <div>
           <div class="img-wrap">
-            <img class="cap-img" src="assets/cap-baseball.png" alt="Dad Cap" />
+            <img class="cap-img" src="/assets/cap-baseball.png" alt="Dad Cap" />
           </div>
           <h3 class="name">Vintage Cap</h3>
           <p class="desc">6-Panels, Cap + Schirm aus Köperstoff – Auch Baseball Cap.</p>
@@ -148,7 +135,7 @@ In 4-5 Wochen geliefert.</p>
         <span class="badge cream">Klassiker</span>
         <div>
           <div class="img-wrap">
-            <img class="cap-img" src="assets/cap-trucker.png" alt="Trucker Cap" />
+            <img class="cap-img" src="/assets/cap-trucker.png" alt="Trucker Cap" />
           </div>
           <h3 class="name">Trucker</h3>
           <p class="desc">5-Panel mit Mesh-Rücken. Atmungsaktiv und outdoor-ready.</p>
@@ -162,7 +149,7 @@ In 4-5 Wochen geliefert.</p>
         <span class="badge">Neu</span>
         <div>
           <div class="img-wrap">
-            <img class="cap-img" src="assets/cap-cord.png" alt="Cord Cap" />
+            <img class="cap-img" src="/assets/cap-cord.png" alt="Cord Cap" />
           </div>
           <h3 class="name">Cord Cap</h3>
           <p class="desc">6-Panel, Vintage-Jeans-Textur. Premium Material mit Retro-Vibe.</p>
@@ -261,9 +248,9 @@ In 4-5 Wochen geliefert.</p>
 
         <div class="cz-cap-stage">
           <div class="cz-cap-color"
-               style="--cap-color: #171F3D; --cap-mask: url('assets/cap-snapback.png');"
+               style="--cap-color: #171F3D; --cap-mask: url('/assets/cap-snapback.png');"
                id="cz-cap-color"></div>
-          <img class="cz-cap-img" id="cz-cap-img" src="assets/cap-snapback.png" alt="" />
+          <img class="cz-cap-img" id="cz-cap-img" src="/assets/cap-snapback.png" alt="" />
           <div class="cz-logo front" id="cz-logo">cappi</div>
         </div>
 
@@ -302,28 +289,28 @@ zu deinen Caps</h2>
     <div class="steps">
       <article class="step" style="padding: 24px 22px">
         <div class="icon">
-          <img src="assets/icon-configure.svg" alt="" aria-hidden="true" />
+          <img src="/assets/icon-configure.svg" alt="" aria-hidden="true" />
         </div>
         <h3 class="step-title">Konfigurieren</h3>
         <p class="step-desc">Cap-Modell und Farbe wählen, Logo hochladen. Dauert keine fünf Minuten.</p>
       </article>
       <article class="step">
         <div class="icon">
-          <img src="assets/icon-mockup.svg" alt="" aria-hidden="true" />
+          <img src="/assets/icon-mockup.svg" alt="" aria-hidden="true" />
         </div>
         <h3 class="step-title">3D-Mockup</h3>
         <p class="step-desc">Wir senden dir innert 24h dein persönliches Cap-Visual. Kostenlos, unverbindlich.</p>
       </article>
       <article class="step">
         <div class="icon">
-          <img src="assets/icon-approval.svg" alt="" aria-hidden="true" />
+          <img src="/assets/icon-approval.svg" alt="" aria-hidden="true" />
         </div>
         <h3 class="step-title">Freigabe &amp; Produktion</h3>
         <p class="step-desc">Du gibst frei, wir produzieren in Portugal. Dauer: ca. 4 Wochen.</p>
       </article>
       <article class="step">
         <div class="icon">
-          <img src="assets/icon-delivery.svg" alt="" aria-hidden="true" />
+          <img src="/assets/icon-delivery.svg" alt="" aria-hidden="true" />
         </div>
         <h3 class="step-title">Lieferung</h3>
         <p class="step-desc">Direkt zu dir — weltweit. Tracking inklusive, Versand in der DACH-Region frei Haus.</p>
@@ -545,7 +532,7 @@ Keine Überraschungen</h2>
     <!-- Google rating summary -->
     <div class="google-rating">
       <div class="gr-score">
-        <img class="gr-glogo" src="assets/logos/google-g.svg" alt="Google" />
+        <img class="gr-glogo" src="/assets/logos/google-g.svg" alt="Google" />
         <div>
           <div class="gr-num">5,0 <span class="gr-stars" aria-hidden="true">★★★★★</span></div>
           <div class="gr-meta">522 × 5 Sterne auf Google</div>
@@ -564,7 +551,7 @@ Keine Überraschungen</h2>
       <figure class="review-card">
         <div class="rc-top">
           <span class="rc-stars" aria-hidden="true">★★★★★</span>
-          <img class="rc-g" src="assets/logos/google-g.svg" alt="Google" />
+          <img class="rc-g" src="/assets/logos/google-g.svg" alt="Google" />
         </div>
         <blockquote>Sehr zu empfehlen! Transparente Preise &amp; Angebote, schnelle und zielführende
           Designerstellung, top Service, zeitgemässe Zahlungsabwicklung. Und dann auch noch ein
@@ -578,7 +565,7 @@ Keine Überraschungen</h2>
       <figure class="review-card">
         <div class="rc-top">
           <span class="rc-stars" aria-hidden="true">★★★★★</span>
-          <img class="rc-g" src="assets/logos/google-g.svg" alt="Google" />
+          <img class="rc-g" src="/assets/logos/google-g.svg" alt="Google" />
         </div>
         <blockquote>Vielen Dank für den tollen Service! Die erstellten Designs waren so schön, dass
           wir uns nur schwer entscheiden konnten. Zuverlässiger Kundenservice und hochwertige
@@ -592,7 +579,7 @@ Keine Überraschungen</h2>
       <figure class="review-card">
         <div class="rc-top">
           <span class="rc-stars" aria-hidden="true">★★★★★</span>
-          <img class="rc-g" src="assets/logos/google-g.svg" alt="Google" />
+          <img class="rc-g" src="/assets/logos/google-g.svg" alt="Google" />
         </div>
         <blockquote>Wir haben uns im gesamten Prozess rundum gut betreut gefühlt und würden jederzeit
           erneut bestellen. Tolle Zusammenarbeit, schnelle Lieferung und hochwertig
@@ -606,7 +593,7 @@ Keine Überraschungen</h2>
       <figure class="review-card">
         <div class="rc-top">
           <span class="rc-stars" aria-hidden="true">★★★★★</span>
-          <img class="rc-g" src="assets/logos/google-g.svg" alt="Google" />
+          <img class="rc-g" src="/assets/logos/google-g.svg" alt="Google" />
         </div>
         <blockquote>Bereits zum zweiten Mal bestellt — sehr freundlicher Service, sehr gute Qualität
           und die anvisierte Lieferzeit wurde sogar unterboten. Gerne wieder! Grüsse aus Freiburg,
@@ -620,7 +607,7 @@ Keine Überraschungen</h2>
       <figure class="review-card">
         <div class="rc-top">
           <span class="rc-stars" aria-hidden="true">★★★★★</span>
-          <img class="rc-g" src="assets/logos/google-g.svg" alt="Google" />
+          <img class="rc-g" src="/assets/logos/google-g.svg" alt="Google" />
         </div>
         <blockquote>Die Bestellung hat einwandfrei geklappt. Immer freundliche und schnelle
           Kommunikation, pünktlicher Liefertermin. Der Druck sieht top aus und die Qualität
@@ -634,7 +621,7 @@ Keine Überraschungen</h2>
       <figure class="review-card">
         <div class="rc-top">
           <span class="rc-stars" aria-hidden="true">★★★★★</span>
-          <img class="rc-g" src="assets/logos/google-g.svg" alt="Google" />
+          <img class="rc-g" src="/assets/logos/google-g.svg" alt="Google" />
         </div>
         <blockquote>Amazing results! The whole process and communication was easy. The design looked
           just as envisioned and the results matched the proposal exactly. 100% recommended.</blockquote>
@@ -648,12 +635,12 @@ Keine Überraschungen</h2>
     <div class="client-strip">
       <div class="lbl">Vertrauen<br/>weiterer Marken</div>
       <div class="client-logos">
-        <div class="client-logo"><img src="assets/logos/dell.svg" alt="Dell" /></div>
-        <div class="client-logo"><img src="assets/logos/tiktok.svg" alt="TikTok" /></div>
-        <div class="client-logo"><img src="assets/logos/dhl.svg" alt="DHL" /></div>
-        <div class="client-logo"><img src="assets/logos/deepl.svg" alt="DeepL" /></div>
-        <div class="client-logo"><img src="assets/logos/huawei.svg" alt="Huawei" /></div>
-        <div class="client-logo"><img src="assets/logos/adobe.svg" alt="Adobe" /></div>
+        <div class="client-logo"><img src="/assets/logos/dell.svg" alt="Dell" /></div>
+        <div class="client-logo"><img src="/assets/logos/tiktok.svg" alt="TikTok" /></div>
+        <div class="client-logo"><img src="/assets/logos/dhl.svg" alt="DHL" /></div>
+        <div class="client-logo"><img src="/assets/logos/deepl.svg" alt="DeepL" /></div>
+        <div class="client-logo"><img src="/assets/logos/huawei.svg" alt="Huawei" /></div>
+        <div class="client-logo"><img src="/assets/logos/adobe.svg" alt="Adobe" /></div>
       </div>
     </div>
   </div>
@@ -829,37 +816,4 @@ Keine Überraschungen</h2>
       <span>CAPPI.LOVE</span>
     </div>
   </div>
-</footer>
-
-<!-- Tweaks defaults -->
-<script>
-  const TWEAKS_DEFAULTS = /*EDITMODE-BEGIN*/{
-    "accent": "#D5FF3D",
-    "lavender": "#D6C3F4",
-    "doodles": true,
-    "density": "comfortable"
-  }/*EDITMODE-END*/;
-  window.__TWEAK_DEFAULTS = TWEAKS_DEFAULTS;
-  // Apply persisted defaults immediately
-  (function(){
-    const root = document.documentElement;
-    root.style.setProperty('--lime', TWEAKS_DEFAULTS.accent);
-    root.style.setProperty('--lavender', TWEAKS_DEFAULTS.lavender);
-    document.body.dataset.doodles = TWEAKS_DEFAULTS.doodles ? 'on' : 'off';
-    document.body.dataset.density = TWEAKS_DEFAULTS.density;
-  })();
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@24.6.0/build/js/intlTelInputWithUtils.min.js"></script>
-<script src="app.js"></script>
-
-<!-- React + Babel for Tweaks panel only -->
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-<script type="text/babel" src="tweaks-panel.jsx"></script>
-<div id="tweaks-root"></div>
-<script type="text/babel" src="tweaks.jsx"></script>
-
-</body>
-</html>
+</footer>`;

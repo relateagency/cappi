@@ -142,7 +142,7 @@ h1, h2, h3, h4 { margin: 0; letter-spacing: -0.025em; font-weight: 800; }
 }
 .hero-bg {
   position: absolute; inset: 0;
-  background-image: url('assets/hero.jpg');
+  background-image: url('/assets/hero.jpg');
   background-size: cover;
   background-position: 65% 40%;
 }
@@ -1264,7 +1264,7 @@ h1, h2, h3, h4 { margin: 0; letter-spacing: -0.025em; font-weight: 800; }
   position: absolute;
   left: -8px; right: -8px; bottom: -14px;
   height: 18px;
-  background-image: url("assets/doodle-3.svg");
+  background-image: url("/assets/doodle-3.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   pointer-events: none;
