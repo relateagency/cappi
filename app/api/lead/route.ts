@@ -5,7 +5,10 @@ import { NextRequest, NextResponse } from "next/server";
 // werden NICHT lokal gespeichert, sondern weitergeleitet.
 const PIPEDRIVE_TOKEN = process.env.PIPEDRIVE_TOKEN || "";
 const PIPEDRIVE_DOMAIN = process.env.PIPEDRIVE_DOMAIN || "sokke";
-const RESEND_KEY = process.env.RESEND_KEY || "";
+// Resend: nutzt die bestehende Sokke-Integration (RESEND_API_KEY). Absender muss
+// eine in Resend verifizierte Domain sein — Default sokke.ch (cappi.ch ggf. spaeter verifizieren).
+const RESEND_KEY = process.env.RESEND_API_KEY || process.env.RESEND_KEY || "";
+const LEAD_FROM = process.env.LEAD_FROM || "CAPPI <info@sokke.ch>";
 const LEAD_NOTIFY = process.env.LEAD_NOTIFY || "hello@cappi.ch";
 
 type Lead = Record<string, unknown>;
@@ -55,16 +58,20 @@ async function notifyEmail(lead: Lead) {
     )
     .join("");
   try {
-    await fetch("https://api.resend.com/emails", {
+    const r = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: "Bearer " + RESEND_KEY, "Content-Type": "application/json" },
       body: JSON.stringify({
-        from: "CAPPI <noreply@cappi.ch>",
+        from: LEAD_FROM,
         to: [LEAD_NOTIFY],
+        reply_to: typeof lead.email === "string" ? lead.email : undefined,
         subject: `Neue CAPPI-Anfrage: ${lead.company || lead.name}`,
         html: `<h2>Neue Mockup-Anfrage</h2><table style="border-collapse:collapse;font-family:sans-serif;font-size:14px">${rows}</table>`,
       }),
     });
+    if (!r.ok) {
+      console.error("Resend notify rejected:", r.status, await r.text());
+    }
   } catch (e) {
     console.error("Resend notify failed:", (e as Error).message);
   }
