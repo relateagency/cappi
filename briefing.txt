@@ -1,0 +1,186 @@
+CAPPI Landing Page Content Briefing Mai 2026
+CAPPI — Eine Marke der Sokke GmbH Seite 1
+CAPPI
+Landing Page — Content Briefing
+Projekt: CAPPI — Custom Caps für B2B
+Typ: MVP Landing Page (Single Page, conversion-fokussiert)
+Sprache: Deutsch (Du-Form)
+Brand Guidelines: Separates Dokument
+CAPPI ist die Schwestermarke von Sokke (sokke.ch) — gleicher Tech-Stack, gleiches
+Geschäftsmodell, neue Produktkategorie. Sokke verkauft seit 2018 Custom Socken für B2B
+(CHF 16.7M kumuliert, 3’500+ Firmenkunden, 71% Marge). CAPPI überträgt dieses Modell
+auf Custom Caps.
+Positionierung: Premium Sweet Spot zwischen Massenmarkt (Allbranded, Vistaprint) und
+White-Label (Labwear). Modern, direkt, kein Werbeartikel-Feeling.
+Domains: cappi.ch (primary) · cappi.love (Kampagnen) · cappi.de (Reserve)
+SEKTION 01
+Hero
+Headline:
+Custom Caps für eure Marke. Ab 50 Stück. Made in Europa.
+Subline:
+Premium 6-Panel mit 3D-Stickerei. In 4 Wochen geliefert. Kein Werbeartikel-Feeling.
+CTA Button (Primary):
+Kostenloses 3D-Mockup erhalten
+Trust-Zeile (klein, unter dem CTA):
+Vom Team hinter Sokke — 3’500+ Firmenkunden seit 2018
+Visual: Hero-Bild mit 3–4 Caps in verschiedenen Farben/Logos. Lifestyle oder Produktfoto.
+SEKTION 02
+Produkt-Auswahl
+Section-Headline: Wählt euer Modell
+4 Produkt-Cards im Grid:
+Classic Snapback — 6-Panel, strukturiert, flache Krempe. Der Klassiker für starke
+Logos.
+
+-- 1 of 6 --
+
+CAPPI Landing Page Content Briefing Mai 2026
+CAPPI — Eine Marke der Sokke GmbH Seite 2
+Yupoong 6089M · Button: «Auswählen»
+Dad Cap — 6-Panel, unstrukturiert, curved Brim. Relaxed, trendy, vielseitig.
+Yupoong 6245CM · Button: «Auswählen»
+Trucker — 5-Panel mit Mesh-Rücken. Atmungsaktiv und outdoor-ready.
+Yupoong 6006 · Button: «Auswählen»
+Beanie — Gestrickt, umgeschlagener Rand. Euer Winter-Merch. (Badge: Saisonprodukt)
+Yupoong 1501KC · Button: «Auswählen»
+Jede Card braucht ein Produktfoto (anfangs Stock/Mockup OK).
+SEKTION 03
+Customization
+Section-Headline: Gestaltet eure Caps
+3 Optionen, nicht mehr. Lean halten.
+Farbe
+10 Standard-Farben als Swatches: Schwarz, Weiss, Navy, Grau, Beige, Olive, Rot, Royal,
+Forest, Sand
+Veredelung
+3D-Stickerei (Empfehlung, vorausgewählt) oder Flach-Stickerei — Toggle/Radio
+Logo-Position
+Front (Standard, vorausgewählt) · Seite · Rücken — Radio Buttons
+Kein komplexer 3D-Konfigurator im MVP. Einfache, klare Auswahl.
+SEKTION 04
+So funktioniert’s
+Section-Headline: In 4 Schritten zu euren Caps
+Step 1: Konfigurieren — Cap-Modell und Farbe wählen, Logo hochladen.
+Step 2: 3D-Mockup — Wir senden euch innert 24h euer persönliches Cap-Visual.
+Step 3: Freigabe & Produktion — Ihr gebt frei, wir produzieren in Portugal. Dauer: ca. 4
+Wochen.
+Step 4: Lieferung — Direkt zu euch — weltweit.
+SEKTION 05
+
+-- 2 of 6 --
+
+CAPPI Landing Page Content Briefing Mai 2026
+CAPPI — Eine Marke der Sokke GmbH Seite 3
+Pricing
+Section-Headline: Transparente Preise. Keine Überraschungen.
+Menge Preis pro Cap
+50 EUR 24
+100 EUR 22
+250 EUR 20
+500 EUR 18
+1000+ Auf Anfrage
+Preise inkl. 3D-Stickerei vorne, exkl. Versand & MwSt.
+SEKTION 06
+Anfrage-Formular
+Section-Headline: Kostenloses 3D-Mockup anfragen
+Das wichtigste Element der Seite. Conversion-Ziel.
+Feld Typ Pflicht
+Name Text Ja
+Firma Text Ja
+Email Email Ja
+Telefon Tel Nein
+Cap-Modell Dropdown (vorausgefüllt) Ja
+Menge Number / Dropdown Ja
+Logo-Upload File Upload Nein
+Kommentar Textarea Nein
+CTA Button:
+Kostenloses 3D-Mockup anfragen
+Hinweis unter dem Button:
+Du bekommst innert 24h ein 3D-Mockup mit deinem Logo. Kein Abo, keine Verpflichtung.
+Technisch: Form submissions gehen anfangs per Email an hello@cappi.ch. Kein Backend-Dashboard
+im MVP.
+SEKTION 07
+
+-- 3 of 6 --
+
+CAPPI Landing Page Content Briefing Mai 2026
+CAPPI — Eine Marke der Sokke GmbH Seite 4
+Trust / Social Proof
+• Badge: Made in Portugal
+• Badge: Premium Yupoong Blanks
+• Badge: 3D-Stickerei
+• Text: Powered by Sokke — 8 Jahre Erfahrung in Custom B2B-Merch
+• Logos: 2–3 Platzhalter für Kundenlogos (werden mit ersten Kunden ersetzt)
+• Optional: 1 Testimonial-Platzhalter (Quote von Sokke-Stammkunde)
+SEKTION 08
+FAQ
+Section-Headline: Häufige Fragen — Accordion-Format
+Wie lange dauert die Produktion?
+Ab Freigabe des Mockups ca. 4 Wochen. Expressproduktion auf Anfrage möglich.
+Wie hoch ist die Mindestbestellmenge?
+50 Stück pro Modell und Farbe.
+Welche Veredelungsverfahren bietet ihr an?
+3D-Stickerei (unsere Empfehlung für maximale Wirkung) und Flach-Stickerei. Beide
+Verfahren sind langlebig und waschbeständig.
+Kann ich Muster bestellen?
+Ja, wir können Einzelmuster produzieren. Sprecht uns einfach an — die Kosten werden bei
+Bestellung verrechnet.
+Wie funktioniert die Bezahlung?
+Per Rechnung (Vorkasse bei Erstbestellung). Ab der zweiten Bestellung auf Rechnung mit 30
+Tagen Zahlungsziel.
+Liefert ihr international?
+Ja, weltweit. Standardversand innerhalb Europas, internationale Lieferung auf Anfrage.
+Was unterscheidet euch von Werbeartikel-Händlern?
+Wir sind kein Katalog-Händler. Jede Cap wird individuell bestickt, aus Premium-Blanks
+gefertigt und in Europa produziert. Keine Massenware, kein Billig-Druck — sondern Merch,
+das eure Leute wirklich tragen wollen.
+SEKTION 09
+
+-- 4 of 6 --
+
+CAPPI Landing Page Content Briefing Mai 2026
+CAPPI — Eine Marke der Sokke GmbH Seite 5
+Footer
+• CAPPI Logo
+• Navigation: Impressum, Datenschutz, AGB, Kontakt
+• Tagline: Made with ♥ in Switzerland. Eine Marke der Sokke GmbH.
+• Kontakt: hello@cappi.ch
+• Social Links: Platzhalter für Instagram, LinkedIn (kommen später)
+Was NICHT auf die MVP-LP gehört
+7 Blog
+7 News-Section
+7 Über-uns-Seite (höchstens 1 Absatz in Footer-Nähe)
+7 Karriere
+7 Mehrsprachigkeit (DE only zum Start)
+7 Live-Chat
+7 Self-Checkout / Warenkorb
+7 3D-Konfigurator (kommt Phase 2)
+7 Account-Login
+7 Komplexe Animationen die Performance kosten
+SEO-Inhalte
+Meta Title:
+Custom Caps für Firmen | CAPPI — Made in Europa ab 50 Stück
+Meta Description:
+Premium Custom Caps mit eurem Logo. 3D-Stickerei, Made in Portugal, geliefert in 4
+Wochen. Kostenloses 3D-Mockup.
+Schema.org: Product, LocalBusiness, FAQPage
+Keyword-Fokus: Custom Caps, Caps bedrucken, Caps besticken, Firmen-Caps, Custom
+Headwear B2B
+Technische Hinweise
+• Stack: Next.js 15 (App Router) + TypeScript + Tailwind CSS + shadcn/ui
+
+-- 5 of 6 --
+
+CAPPI Landing Page Content Briefing Mai 2026
+CAPPI — Eine Marke der Sokke GmbH Seite 6
+• Hosting: Vercel (Region: fra1)
+• Performance: Lighthouse 95+, LCP < 2s, Mobile-First
+• Bilder: WebP/AVIF, lazy load
+• Forms: Anfangs einfaches Formular → Email. Gravity Forms kommt Phase 2
+• Analytics: Google Analytics 4 + Vercel Analytics
+• Tracking: Google Ads, Meta Pixel, Bing UET (Pixel-IDs werden separat geliefert)
+Zusammenfassung
+Eine Seite. Neun Sektionen. Ein Ziel: Anfragen generieren.
+Der Besucher soll in unter 60 Sekunden verstehen: Was ist CAPPI, was kostet es, wie
+funktioniert es — und dann das Formular ausfüllen.
+
+-- 6 of 6 --
+

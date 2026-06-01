@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
+
+# Env / Secrets
+.env
+.env.local
+.env*.local
+
+# Lead-Daten & Uploads (nicht versionieren)
+leads/
+leads.jsonl
+uploads/
+
+# OS
+.DS_Store
+
+# Dev-Scratch
+tweaks.jsx
+tweaks-panel.jsx
